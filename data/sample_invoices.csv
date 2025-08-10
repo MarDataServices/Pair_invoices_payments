@@ -1,0 +1,4 @@
+Invoice Number,Customer Name,Invoice Date,Due Date,Total Amount,Status,Reference,Description
+INV-1001,Acme Inc,2024-04-01,2024-05-01,1000.00,Open,PO123,Web development services
+INV-1002,Beta LLC,2024-04-03,2024-05-03,1500.00,Paid,PO456,Consulting
+INV-1003,Acme Inc,2024-04-05,2024-05-05,500.00,Open,,Additional hours

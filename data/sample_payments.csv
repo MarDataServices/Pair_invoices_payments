@@ -1,0 +1,4 @@
+Transaction ID,Date,Payer Name,Amount,Method,Memo,Reference
+TXN-987,2024-05-01,Acme Incorporated,1000.00,Bank Transfer,Payment for INV-1001,INV-1001
+TXN-988,2024-05-02,Beta LLC,1500.00,Credit Card,April Consulting Invoice,
+TXN-989,2024-05-06,Unknown,700.00,Bank Transfer,Partial payment,INV-9999
