@@ -7,7 +7,7 @@ import csv
 load_dotenv()
 
 def load_into_db(df: pd.DataFrame, name: str) -> None:
-    db_url = os.getenv('DB_URL')  # e.g., postgres://user:pass@postgres:5432/etl
+    db_url = os.getenv('DB_URL')
     if not db_url:
         raise ValueError("DB_URL is not set in .env")
     try:
