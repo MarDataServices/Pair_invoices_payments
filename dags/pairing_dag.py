@@ -22,7 +22,7 @@ def run_pipeline():
     payments = extract_data('/opt/airflow/data/sample_payments.csv')
     
     paired, unpaired_invoices, unpaired_payments = compare_data(invoices, payments)
-    load_into_db(paired, 'PAIRED')
+    load_into_db(paired, 'paired')
     generate_report(paired, unpaired_invoices, unpaired_payments)
 
 
